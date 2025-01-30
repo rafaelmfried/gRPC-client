@@ -1,0 +1,8 @@
+feat: implement gRPC microservice for user service
+
+- Add gRPC dependencies (@grpc/grpc-js, @grpc/proto-loader, @grpc/reflection)
+- Integrate @nestjs/microservices for gRPC support
+- Create CronuserModule and import it in AppModule
+- Configure main.ts to start gRPC microservice alongside HTTP server
+- Update nest-cli.json to include .proto files as assets
+
